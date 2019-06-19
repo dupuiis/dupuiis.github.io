@@ -1,0 +1,97 @@
+
+
+body {
+  background-color: white;
+  font-family: "Roboto-Mono", monospace !important;
+}
+
+@font-face {
+  font-family: "Roboto Mono"
+  src: url(https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap)
+}
+
+h1 {
+  font-family: "Roboto-Mono", monospace !important;
+  text-align: center;
+}
+
+
+
+.header-container {
+  background-image: url("https://i.ibb.co/MMYTJMv/head-image.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1500px;
+    height:250px;
+    align: center;
+
+  }
+
+.card-img {
+object-fit: cover;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stories{
+  text-align: center;
+}
+
+.card-img {
+  object-fit: cover;
+}
+
+#bootstrap-override .img-fluid {
+  position: fixed;
+  bottom: 0;
+  right: auto;
+  width: 1000px;
+  height: 350px;
+}
+
+#Logo {
+  text-align: justify;
+}
+
+#footercolumn {
+  color: rgb(0,0,0) !important;
+
+}
+
+.About {
+  float: left;
+  margin-right: 750px;
+  padding: 50px;
+  text-align: justify;
+  text-align: center;
+  width: 100%;
+
+}
+
+.abouttext {
+float: left;
+text-align: justify;
+padding: 50px;
+width: 50%;
+}
